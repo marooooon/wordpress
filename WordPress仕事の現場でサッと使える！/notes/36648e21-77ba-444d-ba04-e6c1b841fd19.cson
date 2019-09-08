@@ -1,0 +1,37 @@
+createdAt: "2019-03-13T10:09:27.011Z"
+updatedAt: "2019-03-13T10:25:44.073Z"
+type: "MARKDOWN_NOTE"
+folder: "a99bb5075763c13b8036"
+title: "解説メモ"
+tags: []
+content: '''
+  # 解説メモ
+  
+  
+  ### サイトのタイトル
+  - `<title><?php bloginfo('name'); ?></title>`
+  
+  ### サイトのキャッチフレーズ
+  - `<p class="description"><?php bloginfo('description'); ?></p>`
+  
+  ### トップページへのリンク
+  - `<h1><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/common/logo01.png" height="40" width="300" alt="ホテル・技評リゾート石垣島"></a></h1>`
+  
+  ### body_class（ページ別のbody_classを選別）
+  - `<body <?php body_class(); ?>>`
+  - CSS
+  ```CSS
+  body .adminOnly {
+    display: none;
+  }
+  
+  body .logged-in .adminOnly {
+    display: block;
+  }
+  ```
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

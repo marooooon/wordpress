@@ -1,0 +1,15 @@
+createdAt: "2019-03-13T10:05:46.707Z"
+updatedAt: "2019-03-13T10:09:21.967Z"
+type: "MARKDOWN_NOTE"
+folder: "8bc902ea088b82bbaaf1"
+title: "解説メモ"
+tags: []
+content: '''
+  # 解説メモ
+  
+  - `<?php echo get_template_directory_uri(); ?>`でディレクトリを取得できる
+  - ブログタイトルを`php`で。
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

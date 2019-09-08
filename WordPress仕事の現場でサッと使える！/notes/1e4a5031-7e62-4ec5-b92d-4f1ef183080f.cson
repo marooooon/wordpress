@@ -1,0 +1,60 @@
+createdAt: "2019-03-14T05:57:11.667Z"
+updatedAt: "2019-03-16T10:09:38.376Z"
+type: "MARKDOWN_NOTE"
+folder: "cd63ec423737f8407635"
+title: "解説メモ"
+tags: []
+content: '''
+  解説メモ
+  
+  - 作り込む
+    - header.php
+      - `<?php wp_head(); ?>`
+      - プラグインを使用できるようになる
+    - footer.php
+      - `<?php wp_footer(); ?>`
+      - プラグインを使用できるようになる
+  
+  - jQueryを読み込む
+    - header.php
+      - `<?php wp_enqueue_script('jquery'); ?>`
+        - jQueryの最新版が使用できる
+  
+  - JSを読み込む（ここでは`hotel-common.js`）
+    - `<?php wp_enqueue_script('hotel-common.js', get_template_directory_uri() . '/js/common.js'); ?>`
+  
+  - 条件分岐タグ
+    - header.php
+    |a|a|
+    |---|---|
+    |`<?php is_home() ?>`|<ul><li>トップページかどうか調べる</li></ul>|
+    |`<?php is_single('パラメータ') ?>`|<ul><li>記事ページかどうかを判定</li><li>タイトル、スラッグなどを渡すことで、細かく指定が可能</li></ul>|
+    |`<?php is_page('パラメータ') ?>`|<ul><li>固定ページかどうかを判定</li><li>タイトル、スラッグなどを渡すことで、細かく指定が可能</li></ul>|
+    |`<?php is_category('パラメータ') ?>`|<ul><li>カテゴリーページかどうかを判定</li><li>タイトル、スラッグなどを渡すことで、細かく指定が可能</li></ul>|
+  
+  - ページタグのタイトルを取得する
+    - header.php
+      - `<?php echo home_url(); ?>`
+      - `<?php wp_title(' - ', true, 'right'); ?>`
+        - wp_title(`$sep`,`$display`,`$seplocation`)
+          - $sep - 区切り文字指定
+          - $diplay - 表示するかどうか。表示する場合は`true`、しない場合は`false`
+          - $seplocation - 区切り文字を左右のどちらに表示するか。左の場合は`"`、右の場合は`right`
+  
+  ```HTML
+  // トップページの場合`-`を区切り文字を右にする
+  <title>
+  <?php if( !is_home() ){ wp_title(' - ', true, 'right'); } ?>
+  <?php bloginfo('name'); ?>
+  </title>
+  ```
+  
+  - blog_infoのテンプレートタグ情報
+  http://wpdocs.sourceforge.jp/テンプレートタグ/bloginfo
+  
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

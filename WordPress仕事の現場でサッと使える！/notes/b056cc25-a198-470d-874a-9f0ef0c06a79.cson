@@ -1,0 +1,20 @@
+createdAt: "2019-03-13T10:25:49.146Z"
+updatedAt: "2019-03-14T05:53:03.765Z"
+type: "MARKDOWN_NOTE"
+folder: "c27f6a651de40e2b91ce"
+title: "解説メモ"
+tags: []
+content: '''
+  # 解説メモ
+  
+  - テンプレートを分割
+    - header.phpを読み込む
+      - `<?php get_header(); ?>`
+    - footer.phpを読み込む
+      - `<?php get_footer(); ?>`
+    - sidebar.phpを読み込む
+      - `<?php get_sidebar(); ?>`
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

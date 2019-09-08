@@ -1,0 +1,27 @@
+createdAt: "2019-03-13T01:49:22.427Z"
+updatedAt: "2019-03-13T08:31:46.177Z"
+type: "SNIPPET_NOTE"
+folder: "8bc902ea088b82bbaaf1"
+title: "style.css"
+tags: [
+  "css"
+]
+description: "style.css"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "css"
+    content: '''
+      /*
+      Theme Name: ホテル・技評リゾート石垣島
+      Theme URI: http://example.com
+      Description: ホテル・技評リゾート石垣島のテーマです。
+      Version: 1.0
+      Author: Nakashima
+      Author URI: http://gihyo.jp
+      */
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

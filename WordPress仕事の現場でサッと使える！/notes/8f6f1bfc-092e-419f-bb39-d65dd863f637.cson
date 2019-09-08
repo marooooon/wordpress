@@ -1,0 +1,78 @@
+createdAt: "2019-03-13T08:33:17.849Z"
+updatedAt: "2019-04-06T05:22:32.680Z"
+type: "MARKDOWN_NOTE"
+folder: "8bc902ea088b82bbaaf1"
+title: "解説メモ"
+tags: []
+content: '''
+  # 解説メモ
+  
+  ## wordpressファイル一式
+  
+  |ファイル|概要|
+  |:---|:---|
+  |wp-content|テーマやプラグインなどに関するファイルを格納するディレクトリ。<br>基本的にがこのディレウトリの中のファイルを使用する|
+  |wp-adimin|管理画面に関するファイルを格納するディレクトリ|
+  |wp-includes|WordPressのシステム全般に関するファイルを格納するディレクトリ|
+  |index.php|Webサイトにアクセスがあったとき、最初に読み込まれるディレクトリ|
+  |wp-active.php|ユーザーのアカウントに関するファイル|
+  |wp-blog-header.php|WordPressの環境に関するファイルをロードするファイル|
+  |wp-comments-post.php|コメント投稿に関するファイル|
+  |wp-config-sample.php|インストール時に、このファイルを元に設定ファイルを作成する|
+  |wp-cron.php|PHPによる擬似cronジョブを実現するファイル|
+  |wp-links-opml.php|リンクのXML出力に関するファイル|
+  |wp-load.php|WordPressの動作に必要なプログラムをロードするファイル|
+  |wp-login.php|管理画面のログインに関するファイル|
+  |wp-mail.php|メールによるブログ投稿用のファイル|
+  |wp-settings.php|WordPressを動かすための変数、関数、クラスの基本設定|
+  |wp-signup.php|ブログ名・ユーザー名などの設定を行うファイル|
+  |wp-trackback.php|トラックバックとping送信用のファイル|
+  |xmlrpc.php|WordPressのXML-RPC通信に関するファイル|
+  
+  ## wordpress/index.phpに書いておく初期設定
+  
+  以下の設定を終えてサーバーにアップロードをするとテーマの表示が可能
+  
+  ```index.php
+  <!DOCTYPE html>
+  <html lang="ja">
+  <head>
+      <meta charset="UTF-8">
+      <title><?php bloginfo('name'); ?></title>
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css" type="text/css" />
+  </head>
+  <body>
+  <img src="<?php echo get_template_directory_uri(); ?>/images/~" />
+  
+  </body>
+  </html>
+  
+  ```
+  
+  ## テンプレートファイルの設定
+  ページごとのレイアウトを製作するためのページ
+  
+  |テンプレートファイル名|概要|
+  |:---|:---|
+  |front-page.php|トップページ|
+  |single.php|投稿の記事ページを表示|
+  |page.php|固定ページの表示|
+  |category.php|カテゴリーページを表示|
+  |search.php|検索結果ページを表示|
+  |archive.php|記事一覧を表示|
+  |404.php|エラーページの表示|
+  
+  ## テンプレートの優先順位
+  wordpressには優先順位がある。
+  
+  `front-page.php > index.php`
+  
+  ## テンプレート階層を考えるP.48
+  すべてのページのデザインが同じであれば`index.php`で良いけど、そういうわけにもいかない。
+  優先順位の表があるけど、めんどくさいからp.48みて。それか巻末に書いている
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,60 @@
+{
+  "folders": [
+    {
+      "key": "8bc902ea088b82bbaaf1",
+      "color": "#2BA5F7",
+      "name": "section01"
+    },
+    {
+      "key": "a99bb5075763c13b8036",
+      "color": "#B013A4",
+      "name": "section03"
+    },
+    {
+      "key": "c27f6a651de40e2b91ce",
+      "color": "#B013A4",
+      "name": "section04"
+    },
+    {
+      "key": "cd63ec423737f8407635",
+      "color": "#B013A4",
+      "name": "section05"
+    },
+    {
+      "key": "7d0f80bdf575ce5be6bb",
+      "color": "#30D5C8",
+      "name": "section06"
+    },
+    {
+      "key": "e87d873ac25754b5c780",
+      "color": "#FF8E00",
+      "name": "section07"
+    },
+    {
+      "key": "b7f1c8c5057dccd962a1",
+      "color": "#30D5C8",
+      "name": "section08"
+    },
+    {
+      "key": "257400b3a7cc88f1cfe2",
+      "color": "#FF8E00",
+      "name": "section09"
+    },
+    {
+      "key": "d0c9a4f1ac8b8d3ec319",
+      "color": "#E10051",
+      "name": "section10"
+    },
+    {
+      "key": "af1623eb1d0163689950",
+      "color": "#2BA5F7",
+      "name": "section11"
+    },
+    {
+      "key": "da81fee6ec71958c3c84",
+      "color": "#B013A4",
+      "name": "メモ"
+    }
+  ],
+  "version": "1.0"
+}
