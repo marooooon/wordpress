@@ -1,5 +1,6 @@
 <?php get_header(); ?>
     <div id="main" class="container">
+        <p>テストテスト</p>
         <div id="posts">
 
             <?php

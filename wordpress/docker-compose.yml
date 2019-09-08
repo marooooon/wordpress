@@ -18,6 +18,9 @@ services:
      image: wordpress:latest
      ports:
        - "8000:80"
+     volumes:
+       - ./themes/theme-template:/var/www/html/wp-content/themes/theme-template
+       - ./themes/daijiroblog:/var/www/html/wp-content/themes/daijiroblog
      restart: always
      environment:
        WORDPRESS_DB_HOST: db:3306
