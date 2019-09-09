@@ -73,3 +73,16 @@ gulp回して作成できる
 
 #### WP_sample
 参考書にあったサンプルコード
+
+### スターターテーマ
+https://webya.opdsgn.com/wordpress/wordpress-starter-themes-2019/
+
+#### Saga
+https://roots.io/sage/
+- 大御所スターター
+- インストール時になにかと設定しないといけない
+
+
+
+
+
