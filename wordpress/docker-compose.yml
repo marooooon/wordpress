@@ -21,6 +21,7 @@ services:
      volumes:
        - ./themes/theme-template:/var/www/html/wp-content/themes/theme-template
        - ./themes/daijiroblog:/var/www/html/wp-content/themes/daijiroblog
+       - ./themes/sage:/var/www/html/wp-content/themes/sage
      restart: always
      environment:
        WORDPRESS_DB_HOST: db:3306
